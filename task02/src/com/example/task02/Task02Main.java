@@ -23,11 +23,11 @@ public class Task02Main {
         TimeSpan timeSpan2 = new TimeSpan(timeSpan.getHour(), timeSpan.getMinute(), timeSpan.getSecond());
 
         timeSpan2.add(timeSpan);
-        System.out.println("Time span 2 is:\n" + timeSpan2.toString());
+        System.out.println("Time span 2 is:\n" + timeSpan2);
         timeSpan2.subtract(timeSpan);
 
 
-        System.out.println("Time span 2 is:\n" + timeSpan2.toString());
+        System.out.println("Time span 2 is:\n" + timeSpan2);
 
 
     }
